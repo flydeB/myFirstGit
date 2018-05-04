@@ -65,4 +65,6 @@ origin  git@github.com:flydeB/myGit.git (push) 推送到远程库的权限
   git remote add github （github仓库ssh地址）
   git remote add gittte  （码云仓库ssh地址）
 
+  呵呵  
+
 
