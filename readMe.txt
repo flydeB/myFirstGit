@@ -43,3 +43,26 @@ origin  git@github.com:flydeB/myGit.git (push) 推送到远程库的权限
   以后在多人开发中每次上传前 先pull  如果有代码冲突先手动
   处理 再提交处理
 
+  远程仓库的克隆
+  $git clone git@github.com:flydeB/myGit.git
+
+  克隆下来的仓库只有master 创建远程到本地
+
+   $ git checkout -b dev origin/dev
+
+   fork
+   将别人的远程仓库克隆带自己的账号中
+   去到别的项目主页点击fork 接下里克隆这个项目进行
+   修改内容过新增功能  push后 点击自己页面上的new pull request
+   等待对方接受你修改的内容 同不同意就看他自己的决定
+
+  删除远程库与本地的关联
+
+  git remote rm origin
+
+  一个本地仓库可以即关联github 又关联
+  码云  方法就是远程仓库不要同名
+  git remote add github （github仓库ssh地址）
+  git remote add gittte  （码云仓库ssh地址）
+
+
