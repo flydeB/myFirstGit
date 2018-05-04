@@ -11,11 +11,11 @@ title可以任意写  key将id_rsa.pub内容填入
 $ git remote add origin <仓库SSH地址>
 例 $ git remote add origin git@github.com:gecH5Zwei/myGit.git
 将本地内容推送至远程仓库
-$ git push -u origin marster
+$ git push -u origin master
   -u参数第一次推送时需要的参数,作用是将远程仓库中的master分支与本地master 进行关联
   第一次推送会有一个SHH警告输入yes就好了以后不会再出现
 以后每次将内容推送至库
-$ git push origin marster
+$ git push origin master
 
  $ git remote 查看远程库的信息
  $ git remote -v 查看远程库的权限
